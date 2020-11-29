@@ -32,8 +32,7 @@ class TicTacToe
     @board[4] = "O"
   end
 
-  def position_taken?(int)
-    index = input_to_index(int)
+  def position_taken?(index)
     !@board[index] == " " || !@board[index] == nil
   end
 

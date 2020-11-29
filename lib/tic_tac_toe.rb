@@ -36,4 +36,6 @@ class TicTacToe
     !@board[index] == "" || !@board[index] == nil
   end
 
+  
+
 end
